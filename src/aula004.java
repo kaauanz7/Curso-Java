@@ -40,7 +40,8 @@ public class aula004 {
         System.out.println("Informe a sua idade:");
         int idade = teclado.nextInt();
 
-        String voto = (idade >= 16 && idade < 18 || idade>70)? " Voto Opcional" : "Voto Obrigatório";
+        String voto = (idade < 16) ? "Não pode votar" :
+                      (idade >= 16 && idade < 18 || idade>=70)? " Voto Opcional" : "Voto Obrigatório";
         System.out.println(voto);
     }
 }
