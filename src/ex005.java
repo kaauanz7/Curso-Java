@@ -137,7 +137,7 @@ public class ex005 {
 
         int numeroSecreto = 37;
         int tentativa;
-        int tentativas;
+        int tentativas = 0;
 
         do {
             System.out.println("TENTE ACERTAR O NÚMERO SECRETO:");
